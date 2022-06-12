@@ -18,43 +18,53 @@ const produtos = {
         lista: [
             {
                 nome: 'Cabo HDMI',
-                imagem: caboHdmi
+                imagem: caboHdmi,
+                preco: 'R$ 50,00'
             },
             {
                 nome: 'Cooler FAN',
-                imagem: coolerFan
+                imagem: coolerFan,
+                preco: 'R$ 30,00'
             },
             {
                 nome: 'Gabinete',
-                imagem: gabinete
+                imagem: gabinete,
+                preco: 'R$ 100,00'
             },
             {
-                nome: 'Memória RAM',
-                imagem: memoria
+                nome: 'Memória RAM 8GB',
+                imagem: memoria,
+                preco: 'R$ 200,00'
             },
             {
                 nome: 'Monitor',
-                imagem: monitor
+                imagem: monitor,
+                preco: 'R$ 600,00'
             },
             {
                 nome: 'Mouse',
-                imagem: mouse
+                imagem: mouse,
+                preco: 'R$ 150,00'
             },
             {
                 nome: 'Placa Mãe',
-                imagem: placaMae
+                imagem: placaMae,
+                preco: 'R$ 250,00'
             },
             {
                 nome: 'Placa de Vídeo',
-                imagem: placaVideo
+                imagem: placaVideo,
+                preco: 'R$ 2300,00'
             },
             {
                 nome: 'Processador I7',
-                imagem: processador
+                imagem: processador,
+                preco: 'R$ 1950,00'
             },
             {
                 nome: 'Teclado',
-                imagem: teclado
+                imagem: teclado,
+                preco: 'R$ 150,00'
             }
         ]
     }
