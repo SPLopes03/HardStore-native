@@ -3,7 +3,7 @@ import Texto from "./texto";
 import {TouchableOpacity, Image, StyleSheet} from "react-native";
 
 export default function Produto({item: {nome, imagem, preco}}) {
-    return <TouchableOpacity style={estilos.item} onPress={() => alert(`${nome} vendido por ${preco}`)}>
+    return <TouchableOpacity style={estilos.item} onPress={() => alert(`${nome} está sendo vendido por: ${preco}`)}>
         <Image source={imagem} style={estilos.imagem} />
         <Texto style={estilos.nome}>{nome}</Texto>
         <Texto style={estilos.preco}>{preco}</Texto>
